@@ -2,9 +2,9 @@ import os
 import xml.etree.ElementTree as ET
 
 # Percorsi delle directory
-images_dir = "/Volumes/SSD 480GB/progettoCV/dataset_soccer/test/images/ID_6"
-annotations_dir = "/Volumes/SSD 480GB/progettoCV/dataset_soccer/test/annotations/ID-6"
-labels_dir = "/Users/vincenzopresta/Desktop/labels/ID-6"
+images_dir = "path-to-frames"
+annotations_dir = "path-to-annotations"
+labels_dir = "path-to-labels"
 os.makedirs(labels_dir, exist_ok=True)
 
 
